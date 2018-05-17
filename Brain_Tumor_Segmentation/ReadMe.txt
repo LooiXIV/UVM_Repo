@@ -7,3 +7,6 @@ Each brain has its own training set and a truth mask. The truth masks should hav
 Shapes for the training images should be (155, 240, 240, 4). Here the first dimension refer to layers in brain image, the next two dimesions correspond to x and y rows of a brain image, and the last dimensions refers to each channel. In the test set the Shapes should be (155, 240, 240, 1). Here all but the last dimensions represent the same parts of the brain image. The last dimensions in the test images are the truth masks which represent tumors as marked and defined by a professional human classifier. 
 
 The CNN_RNN_Brats17.py file holds the model, the code to train the model, and the code to plot the learning curves. Simply call $ python CNN_RNN_Brats17.py. 
+
+To obtain data refer to the Brats2017 Kaggle competition at: https://sites.google.com/site/braintumorsegmentation/
+You will most likely have to send a request for data. 
